@@ -12,9 +12,9 @@ function App() {
   }
   return (
     <>
-      <Navbar />
-      <Main data={data}/>
-      <Nav dataHandle={dataHandle}/>
+      <Navbar dataHandle={dataHandle} />
+      <Main data={data} />
+      <Nav dataHandle={dataHandle} />
     </>
   );
 }

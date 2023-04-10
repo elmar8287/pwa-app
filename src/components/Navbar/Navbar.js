@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default () => {
+export default ({dataHandle}) => {
 
   const [state, setState] = useState(false)
 
@@ -57,9 +57,9 @@ export default () => {
                   </ul>
               </div>
               <div className="hidden md:inline-block">
-                <a href="javascript:void(0)" className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow">
+                <button onClick={dataHandle} className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow">
                     Sorğu əlavə et
-                </a>
+                </button>
               </div>
           </div>
       </nav>
