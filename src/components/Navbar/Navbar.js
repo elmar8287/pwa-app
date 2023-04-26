@@ -46,7 +46,7 @@ export default ({dataHandle}) => {
                       {
                           navigation.map((item, idx) => {
                               return (
-                                <li key={idx} className="text-gray-600 hover:text-indigo-600">
+                                <li key={idx} className="text-gray-600 hover:text-sky-600">
                                     <a href={item.path}>
                                         { item.title }
                                     </a>
@@ -57,7 +57,7 @@ export default ({dataHandle}) => {
                   </ul>
               </div>
               <div className="hidden md:inline-block">
-                <button onClick={dataHandle} className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow">
+                <button onClick={dataHandle} className="py-3 px-4 text-white bg-sky-700 hover:bg-indigo-700 rounded-md shadow">
                     Sorğu əlavə et
                 </button>
               </div>
