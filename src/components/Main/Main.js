@@ -7,7 +7,7 @@ const Main = ({data}) => {
                     <h1>Add new request</h1>
                 </div>
                 :
-                <p className="">Please, consider pressing + button to add the ne request</p>
+                <p className="">Press + to add requestt</p>
             }
             
         </main>
