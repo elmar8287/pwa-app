@@ -1,6 +1,6 @@
 {
-  "short_name": "Pharmcontrol",
-  "name": "Pharmcontrol",
+  "short_name": "PHARMCONTROL",
+  "name": "PHARMCONTROL",
   "icons": [
     {
       "src": "favicon.ico",
@@ -39,7 +39,7 @@
       "purpose": "any"
     }
   ],
-  "start_url": "https://gleaming-semolina-874a8e.netlify.app/",
+  "start_url": "https://candid-kitsune-2dc9d6.netlify.app/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
