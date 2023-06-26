@@ -3,7 +3,7 @@ import { useState } from "react";
 export default ({ dataHandle }) => {
   const [state, setState] = useState(false);
 
-  const logo = require("./logo-white.png");
+  const logo = require("./logo_gray.png");
 
   // Replace javascript:void(0) path with your path
   const navigation = [
