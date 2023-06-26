@@ -7,9 +7,10 @@ export default ({ dataHandle }) => {
 
   // Replace javascript:void(0) path with your path
   const navigation = [
-    { title: "Profile", path: "javascript:void(0)" },
-    { title: "About", path: "javascript:void(0)" },
-    { title: "Logout", path: "javascript:void(0)" },
+    { title: "Hesabım", path: "javascript:void(0)" },
+    { title: "Sorğularım", path: "javascript:void(0)" },
+    { title: "Haqqımızda ", path: "javascript:void(0)" },
+    { title: "Çıxış", path: "javascript:void(0)" },
   ];
 
   return (
