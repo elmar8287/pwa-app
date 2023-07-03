@@ -18,7 +18,7 @@ export default ({ dataHandle }) => {
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <a href="/">
-            <img src={logo} width={90} height={50} alt="PHARMCONTROL logo" />
+            <img src={logo} width={100} height={60} alt="PHARMCONTROL logo" />
           </a>
           <div className="md:hidden">
             <button
